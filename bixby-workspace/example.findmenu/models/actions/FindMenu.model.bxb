@@ -1,0 +1,15 @@
+action (FindMenu) {
+  description (메뉴찾기)
+  collect {
+    input (date) {
+      type (Date)
+      min (Required) max (One)
+    }
+    input (month) {
+      type (Month)
+      min (Optional) max (One)
+    }
+  }
+  type(Search)
+  output (Results)
+}

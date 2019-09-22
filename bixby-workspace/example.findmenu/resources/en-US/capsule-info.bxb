@@ -1,0 +1,8 @@
+capsule-info {
+  display-name (__DISPLAY_NAME__)
+  developer-name (__COMPANY_NAME__)
+  icon-asset (icon.png)
+  description ("__DESCRIPTION__")
+  website-url (https://example.com/)
+  terms-url (https://example.com/terms-of-use/)
+}

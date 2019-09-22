@@ -1,0 +1,7 @@
+structure (Results) {
+  description (결과표시)
+  property (result) {
+    type (Result)
+    min (Optional) max (Many)
+  }
+}
