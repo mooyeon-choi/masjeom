@@ -1,0 +1,5 @@
+train (t-m3aeg2dddh2m38i2iuh7xdcfq) {
+  utterance ("[g:Results] (대천고등학교)[v:SchoolName] (24)[v:Date]일 급식 알려줘")
+  plan (Y2BhkEitSMwtyEnVS8vMS8lNzSvVC0otLs0pKWaQxJBxAzJ8gQwGUQwpl8SSVAZpDOHg5Iz8/By/xNxUBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1569493065414)
+}

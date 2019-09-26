@@ -1,0 +1,5 @@
+train (t-uxpxs6pyirnuunu4jx5ybrj7z) {
+  utterance ("[g:Results] (대천)[v:SchoolName] (고등학교)[v:SchoolKeyword:고등학교] (26)[v:Date]일 급식 뭐야?")
+  plan (Y2BlkEitSMwtyEnVS8vMS8lNzSvVC0otLs0pKWaQxJBxAzJ8gQwGUQwpl8SSVAY5DOHg5Iz8/Bzv1Mry/KIUBmkc8n6JuakMLAyMDEwMzECaAciCQBgAiUHlAA==)
+  last-modified (1569498132369)
+}

@@ -1,0 +1,10 @@
+train (t-fpag1jt1riwpguakxiad57vn2) {
+  utterance ("[g:Results] (태안여고)[v:SchoolName] (26)[v:Date]일 급식 알려줘")
+  plan (Y2BhkEitSMwtyEnVS8vMS8lNzSvVC0otLs0pKWaQxJBxAzJ8gQwGUQwpl8SSVAZpDOHg5Iz8/By/xNxUBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1569493757781)
+}
+train (t-fzf7i8fzn564hece8xy5dbrzy) {
+  utterance ("[g:Results] (태안)[v:SchoolName](여고)[v:SchoolStyle] (27)[v:Date]일 급식 뭐야?")
+  plan (Y2BlkEitSMwtyEnVS8vMS8lNzSvVC0otLs0pKWaQxJBxAzJ8gQwGUQwpl8SSVAZpDOHg5Iz8/By/xNxUBhkcksEllTmpDCwMjAxMDMxAmgHIgkAYAIlB5QA=)
+  last-modified (1569494325570)
+}

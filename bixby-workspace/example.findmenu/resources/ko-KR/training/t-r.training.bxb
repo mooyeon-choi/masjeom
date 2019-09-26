@@ -1,0 +1,5 @@
+train (t-r5krx371djp8to6qtoe91642f) {
+  utterance ("[g:Results] (여고)[v:SchoolName] (25)[v:Date]일 메뉴 알려줘")
+  plan (Y2BhkEitSMwtyEnVS8vMS8lNzSvVC0otLs0pKWaQxJBxAzJ8gQwGUQwpl8SSVAZpDOHg5Iz8/By/xNxUBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1569494072444)
+}

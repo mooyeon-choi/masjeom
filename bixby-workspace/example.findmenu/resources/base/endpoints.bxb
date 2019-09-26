@@ -1,7 +1,7 @@
 endpoints {
   action-endpoints {
     action-endpoint (FindMenu) {
-      accepted-inputs (date,month)
+      accepted-inputs (schoolname, schoolkeyword ,month,date)
       local-endpoint (findMenu.js)
     }
   }

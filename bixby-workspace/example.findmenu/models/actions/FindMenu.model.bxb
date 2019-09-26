@@ -9,6 +9,14 @@ action (FindMenu) {
       type (Month)
       min (Optional) max (One)
     }
+    input (schoolname) {
+      type (SchoolName)
+      min(Optional) max(One)
+    }
+    input (schoolkeyword) {
+      type (SchoolKeyword)
+      min(Optional) max(One)
+    }
   }
   type(Search)
   output (Results)

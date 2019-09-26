@@ -1,0 +1,5 @@
+train (t-lp3y8h3svhiyhyasizipbrlly) {
+  utterance ("[g:Results] (대천고등학교)[v:SchoolName] (9)[v:Month]월 (26)[v:Date]일 메뉴 뭐냐?")
+  plan (Y2BlkEitSMwtyEnVS8vMS8lNzSvVC0otLs0pKWaQxJBxAzJ8gQwGUQwpl8SSVAYxDGHf/LySDAZpDPHg5Iz8/By/xNxUBhYGRgYmBmYgzQBkQSAMgMSgcgA=)
+  last-modified (1569492296818)
+}
