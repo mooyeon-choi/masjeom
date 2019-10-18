@@ -1,0 +1,15 @@
+structure (Menu8) {
+  description (__DESCRIPTION__)
+    property (menuName) {
+    type (MenuName)
+    min (Optional) max (One)
+  }
+    property (allergy) {
+    type (Allergy)
+    min (Optional) max (Many)
+  }
+    property (myAllergy) {
+    type (MyAllergy)
+    min (Optional) max (One)
+  }
+}

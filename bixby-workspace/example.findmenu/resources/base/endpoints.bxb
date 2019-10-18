@@ -1,8 +1,13 @@
 endpoints {
-  action-endpoints {
-    action-endpoint (FindMenu) {
-      accepted-inputs (schoolname, schoolkeyword ,month,date)
-      local-endpoint (findMenu.js)
-    }
-  }
+	
+	action-endpoints {
+		action-endpoint (FindSchool) {
+			accepted-inputs (schoolname,schoolKeyword)
+			local-endpoint (findSchool.js)
+		}
+		action-endpoint (FindMenu) {
+			accepted-inputs (dateTimeExpression, schools, meal, date)
+			local-endpoint (findMenu.js)
+		}
+	}
 }

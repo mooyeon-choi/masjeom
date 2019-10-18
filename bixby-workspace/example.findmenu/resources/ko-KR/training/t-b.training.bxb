@@ -1,5 +1,0 @@
-train (t-bfpgrayxwk1rk5cat1wnzglg0) {
-  utterance ("[g:Results] (충남)[v:SchoolName] (외고)[v:SchoolKeyword:외국어고등학교] (26)[v:Date]일 밥 뭐야?")
-  plan (Y2BlkEitSMwtyEnVS8vMS8lNzSvVC0otLs0pKWaQxJBxAzJ8gQwGUQwpl8SSVAY5DOHg5Iz8/Bzv1Mry/KIUBmkc8n6JuakMLAyMDEwMzECaAciCQBgAiUHlAA==)
-  last-modified (1569511433557)
-}

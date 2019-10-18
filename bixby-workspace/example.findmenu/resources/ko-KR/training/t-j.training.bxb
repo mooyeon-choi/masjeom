@@ -1,0 +1,10 @@
+train (t-jbby1hxln0qr2pxhcfmmt6hox) {
+  utterance ("[g:Results] (충남)[v:SchoolName](고)[v:SchoolKeyword:고등학교] 메뉴 알려줘")
+  plan (Y2BjkEitSMwtyEnVS8vMS8lNzSvVC0otLs0pKWaQxJBxAzJ8gQwsmoKTM/Lzc4oZpLFqgsgyyOHQ5p1aWZ5flIJFM0TeLzE3lYGVgZGBiYGZgQXIYoCymYE0AxiDADMQg2UB)
+  last-modified (1571182799092)
+}
+train (t-jfaflb7euyfkd7hk36tyzstjz) {
+  utterance ("[g:Results] (대천)[v:SchoolName](고)[v:SchoolKeyword:고등학교] (목요일)[v:time.DateTimeExpression] 급식 알려줘")
+  plan (Y2BnkEitSMwtyEnVS8vMS8lNzSvVC0otLs0pKWaQxJBxAzJ8gQwsmoKTM/Lzc4oZpLFqgsgyyOHQ5p1aWZ5flIJFM0TeLzE3lUG6LLNMryQzN1XPJbEkNQTIcK0oKEotLs7Mz2NgY2BkYGJgZmBhYAWyGaA8ZiDNCObBAAsYg9UAAA==)
+  last-modified (1570761905437)
+}

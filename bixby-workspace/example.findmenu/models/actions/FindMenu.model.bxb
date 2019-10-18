@@ -1,23 +1,27 @@
 action (FindMenu) {
-  description (메뉴찾기)
-  collect {
-    input (date) {
-      type (Date)
-      min (Required) max (One)
-    }
-    input (month) {
-      type (Month)
-      min (Optional) max (One)
-    }
-    input (schoolname) {
-      type (SchoolName)
-      min(Optional) max(One)
-    }
-    input (schoolkeyword) {
-      type (SchoolKeyword)
-      min(Optional) max(One)
-    }
-  }
-  type(Search)
-  output (Results)
+	description (메뉴찾기)
+	collect {
+		input (schools) {
+			type (Schools)
+			min(Optional) max(One)
+		}
+		input (date) {
+			type (Date)
+			min(Optional) max(One)
+		}
+		input (dateTimeExpression) {
+			type (time.DateTimeExpression)
+			min(Optional) max(One)
+			default-select {
+				with-learning {
+				}
+			}
+		}
+		input (meal) {
+			type (Meal)
+			min(Optional) max(One)
+		}
+	}
+	type(Search)
+	output (Results) 
 }

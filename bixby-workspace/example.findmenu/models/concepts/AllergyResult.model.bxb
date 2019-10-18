@@ -1,5 +1,4 @@
-structure (Results) {
-  description (결과표시)
+structure (AllergyResult) {
   property (date) {
     type (Date)
     min (Optional) max (Many)
@@ -10,10 +9,6 @@ structure (Results) {
   }
   property (menus) {
     type (Menus)
-    min (Optional) max (Many)
-  }
-  property (result) {
-    type (Result)
     min (Optional) max (Many)
   }
 }

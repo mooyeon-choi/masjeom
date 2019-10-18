@@ -1,0 +1,3 @@
+text (SchoolAddress) {
+  description (__DESCRIPTION__)
+}

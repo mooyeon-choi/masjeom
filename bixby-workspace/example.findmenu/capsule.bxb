@@ -5,7 +5,11 @@ capsule {
   targets {
     target (bixby-mobile-en-US){enabled (false)}
     target (bixby-mobile-ko-KR)
-
+  }
+  capsule-imports {
+    import (viv.time) {
+      as (time) version (2.92.45)
+    }
   }
   runtime-flags {
     concepts-inherit-super-type-features

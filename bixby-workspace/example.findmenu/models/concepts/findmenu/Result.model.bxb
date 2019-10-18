@@ -1,0 +1,11 @@
+structure (Result) {
+  description (__DESCRIPTION__)
+  property (date) {
+    type (Date)
+    min (Optional) max (One)
+  }
+  property (menuName) {
+    type (MenuName)
+    min (Optional) max (Many)
+  }
+}

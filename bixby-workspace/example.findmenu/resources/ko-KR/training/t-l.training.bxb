@@ -1,5 +1,5 @@
-train (t-lp3y8h3svhiyhyasizipbrlly) {
-  utterance ("[g:Results] (대천고등학교)[v:SchoolName] (9)[v:Month]월 (26)[v:Date]일 메뉴 뭐냐?")
-  plan (Y2BlkEitSMwtyEnVS8vMS8lNzSvVC0otLs0pKWaQxJBxAzJ8gQwGUQwpl8SSVAYxDGHf/LySDAZpDPHg5Iz8/By/xNxUBhYGRgYmBmYgzQBkQSAMgMSgcgA=)
-  last-modified (1569492296818)
+train (t-li8r0pb0xjrtns1gs4ierb1ph) {
+  utterance ("[g:Results] (태안)[v:SchoolName](여고)[v:SchoolKeyword:여자고등학교] (10일)[v:time.DateTimeExpression] 급식 알려줘")
+  plan (Y2BnkEitSMwtyEnVS8vMS8lNzSvVC0otLs0pKWaQxJBxAzJ8gQwsmoKTM/Lzc4oZpLFqgsgyyOHQ5p1aWZ5flIJFM0TeLzE3lUG6LLNMryQzN1XPJbEkNQTIcK0oKEotLs7Mz2NgY2BkYGJgZmBhYAWyGaA8ZiDNCObBAAsYg9UAAA==)
+  last-modified (1570761201366)
 }

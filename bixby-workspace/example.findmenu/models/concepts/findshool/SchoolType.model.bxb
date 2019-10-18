@@ -1,0 +1,3 @@
+text (SchoolType) {
+  description (__DESCRIPTION__)
+}

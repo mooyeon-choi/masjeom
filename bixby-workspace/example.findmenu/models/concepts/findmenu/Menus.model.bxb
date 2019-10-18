@@ -1,0 +1,39 @@
+structure (Menus) {
+  description (__DESCRIPTION__)
+  property (menu1) {
+    type (Menu1)
+    min (Optional) max (One)
+  }
+  property (menu2) {
+    type (Menu2)
+    min (Optional) max (One)
+  }
+    property (menu3) {
+    type (Menu3)
+    min (Optional) max (One)
+  }
+    property (menu4) {
+    type (Menu4)
+    min (Optional) max (One)
+  }
+    property (menu5) {
+    type (Menu5)
+    min (Optional) max (One)
+  }
+    property (menu6) {
+    type (Menu6)
+    min (Optional) max (One)
+  }
+    property (menu7) {
+    type (Menu7)
+    min (Optional) max (One)
+  }
+    property (menu8) {
+    type (Menu8)
+    min (Optional) max (One)
+  }
+    property (menu9) {
+    type (Menu9)
+    min (Optional) max (One)
+  }
+}

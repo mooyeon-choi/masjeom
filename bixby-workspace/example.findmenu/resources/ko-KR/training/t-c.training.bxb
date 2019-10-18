@@ -1,0 +1,5 @@
+train (t-cjstsqcidjzcuku1dcpgd8562) {
+  utterance ("[g:example.findmenu.Results] (분향)[v:example.findmenu.SchoolName] (초)[v:example.findmenu.SchoolKeyword:초등학교] (다음주)[v:viv.time.DateTimeExpression] 메뉴 알려줘")
+  plan (Y2BnkEitSMwtyEnVS8vMS8lNzSvVC0otLs0pKWaQxJBxAzJ8gQwsmoKTM/Lzc4oZpLFqgsgyyOHQ5p1aWZ5flIJFM0TeLzE3lUG6LLNMryQzN1XPJbEkNQTIcK0oKEotLs7Mz2NgY2BkYGJgZmBhYAWyGaA8ZiDNCObBAAsYg9UAAA==)
+  last-modified (1571401024496)
+}

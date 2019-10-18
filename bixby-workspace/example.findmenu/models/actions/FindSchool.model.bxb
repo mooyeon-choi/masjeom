@@ -1,0 +1,15 @@
+action (FindSchool) {
+  description (findschool)
+  type (Search)
+  collect {
+    input (schoolname) {
+      type (SchoolName)
+      min(Optional) max(One)
+    }
+    input (schoolKeyword) {
+      type (SchoolKeyword)
+      min(Optional) max(One)
+    }
+  }
+  output (Schools)
+}

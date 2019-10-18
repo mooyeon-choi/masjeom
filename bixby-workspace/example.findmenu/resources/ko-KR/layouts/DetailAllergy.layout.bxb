@@ -1,0 +1,297 @@
+layout-macro-def (detail-allergy) {
+	params {
+		param (results) {
+			type (AllergyResult)
+			min (Optional) max (Many)
+		}
+	}
+	content {
+		section{
+			title {
+				template ("#{value(results.schoolname)} #{value(results.date)}일 메뉴")
+			}
+			content{
+				compound-card{
+					content{
+						if (size(results.menus.menu1.menuName) > 0) {
+							single-line{
+								text {
+									value ("#{value(results.menus.menu1.menuName)}")
+									style (Title_M)
+								}
+							}
+							divider
+							if (size(results.menus.menu1.allergy) < 1) {
+								single-line {
+									text {
+										value ("알러지 정보 없음")
+									}
+								}
+							}
+							else {
+								for-each (results.menus.menu1.allergy){
+									as (allergy) {
+										single-line {
+											text {
+												value ("#{value(allergy)}")
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				compound-card{
+					content{
+						if (size(results.menus.menu2.menuName) > 0) {
+							single-line{
+								text {
+									value ("#{value(results.menus.menu2.menuName)}")
+									style (Title_M)
+								}
+							}
+							divider
+							if (size(results.menus.menu2.allergy) < 1) {
+								single-line {
+									text {
+										value ("알러지 정보 없음")
+									}
+								}
+							}
+							else {
+								for-each (results.menus.menu2.allergy){
+									as (allergy) {
+										single-line {
+											text {
+												value ("#{value(allergy)}")
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				compound-card{
+					content{
+						if (size(results.menus.menu3.menuName) > 0) {
+							single-line{
+								text {
+									value ("#{value(results.menus.menu3.menuName)}")
+									style (Title_M)
+								}
+							}
+							divider
+							if (size(results.menus.menu3.allergy) < 1) {
+								single-line {
+									text {
+										value ("알러지 정보 없음")
+									}
+								}
+							}
+							else {
+								for-each (results.menus.menu3.allergy){
+									as (allergy) {
+										single-line {
+											text {
+												value ("#{value(allergy)}")
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				compound-card{
+					content{
+						if (size(results.menus.menu4.menuName) > 0) {
+							single-line{
+								text {
+									value ("#{value(results.menus.menu4.menuName)}")
+									style (Title_M)
+								}
+							}
+							divider
+							if (size(results.menus.menu4.allergy) < 1) {
+								single-line {
+									text {
+										value ("알러지 정보 없음")
+									}
+								}
+							}
+							else {
+								for-each (results.menus.menu4.allergy){
+									as (allergy) {
+										single-line {
+											text {
+												value ("#{value(allergy)}")
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				compound-card{
+					content{
+						if (size(results.menus.menu5.menuName) > 0) {
+							single-line{
+								text {
+									value ("#{value(results.menus.menu5.menuName)}")
+									style (Title_M)
+								}
+							}
+							divider
+							if (size(results.menus.menu5.allergy) < 1) {
+								single-line {
+									text {
+										value ("알러지 정보 없음")
+									}
+								}
+							}
+							else {
+								for-each (results.menus.menu5.allergy){
+									as (allergy) {
+										single-line {
+											text {
+												value ("#{value(allergy)}")
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				compound-card{
+					content{
+						if (size(results.menus.menu6.menuName) > 0) {
+							single-line{
+								text {
+									value ("#{value(results.menus.menu6.menuName)}")
+									style (Title_M)
+								}
+							}
+							divider
+							if (size(results.menus.menu6.allergy) < 1) {
+								single-line {
+									text {
+										value ("알러지 정보 없음")
+									}
+								}
+							}
+							else {
+								for-each (results.menus.menu6.allergy){
+									as (allergy) {
+										single-line {
+											text {
+												value ("#{value(allergy)}")
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				compound-card{
+					content{
+						if (size(results.menus.menu7.menuName) > 0) {
+							single-line{
+								text {
+									value ("#{value(results.menus.menu7.menuName)}")
+									style (Title_M)
+								}
+							}
+							divider
+							if (size(results.menus.menu7.allergy) < 1) {
+								single-line {
+									text {
+										value ("알러지 정보 없음")
+									}
+								}
+							}
+							else {
+								for-each (results.menus.menu7.allergy){
+									as (allergy) {
+										single-line {
+											text {
+												value ("#{value(allergy)}")
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				compound-card{
+					content{
+						if (size(results.menus.menu8.menuName) > 0) {
+							single-line{
+								text {
+									value ("#{value(results.menus.menu8.menuName)}")
+									style (Title_M)
+								}
+							}
+							divider
+							if (size(results.menus.menu8.allergy) < 1) {
+								single-line {
+									text {
+										value ("알러지 정보 없음")
+									}
+								}
+							}
+							else {
+								for-each (results.menus.menu8.allergy){
+									as (allergy) {
+										single-line {
+											text {
+												value ("#{value(allergy)}")
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				compound-card{
+					content{
+						if (size(results.menus.menu9.menuName) > 0) {
+							single-line{
+								text {
+									value ("#{value(results.menus.menu9.menuName)}")
+									style (Title_M)
+								}
+							}
+							divider
+							if (size(results.menus.menu9.allergy) < 1) {
+								single-line {
+									text {
+										value ("알러지 정보 없음")
+									}
+								}
+							}
+							else {
+								for-each (results.menus.menu9.allergy){
+									as (allergy) {
+										single-line {
+											text {
+												value ("#{value(allergy)}")
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+				

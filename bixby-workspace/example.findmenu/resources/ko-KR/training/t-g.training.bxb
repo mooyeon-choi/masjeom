@@ -1,0 +1,5 @@
+train (t-g904x8axzw5dm6753iltclh06) {
+  utterance ("[g:example.findmenu.Results] (태안)[v:example.findmenu.SchoolName] (중)[v:example.findmenu.SchoolKeyword:중학교] 메뉴 알려줘")
+  plan (Y2BjkEitSMwtyEnVS8vMS8lNzSvVC0otLs0pKWaQxJBxAzJ8gQwsmoKTM/Lzc4oZpLFqgsgyyOHQ5p1aWZ5flIJFM0TeLzE3lYGVgZGBiYGZgQXIYoCymYE0AxiDADMQg2UB)
+  last-modified (1571400935433)
+}
