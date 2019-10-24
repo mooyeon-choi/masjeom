@@ -1,0 +1,5 @@
+train (t-svlpppjhd00oeq6ut9eo686ih) {
+  utterance ("[g:playground.test.Results] (계산)[v:playground.test.SchoolName] (고)[v:playground.test.SchoolKeyword:고등학교] (모레)[v:viv.time.DateTimeExpression] (아침)[v:Meal] 뭐야")
+  plan (bYxdCsIwEISntVUPICiKV8gp1BepD+oFglk0kCYlP9Xe3pDSl7YLCzP77QzW2DaKd29rghbMk/PsTi4o77Abg4vUoiIdsBmTiriaFj1eH2OUw36uqIc4zoeu1H2NFdNoj2+8Jhxa2TIva2In7ukZxfnXWHJOGo0VMuRYoECJZXSIPku+SArpMkwZNx8+/w==)
+  last-modified (1571659637857)
+}

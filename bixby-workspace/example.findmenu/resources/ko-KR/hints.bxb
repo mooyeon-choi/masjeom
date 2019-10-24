@@ -1,0 +1,8 @@
+hints {
+  uncategorized{
+    utterance (계산 고 이번주 급식 알려줘)
+    utterance (남수원 초등학교 다음주 점심 뭐야?)
+    utterance (태안 여고 아침 알려줘)
+    utterance (앙 고 저녁 밥)
+  }
+}

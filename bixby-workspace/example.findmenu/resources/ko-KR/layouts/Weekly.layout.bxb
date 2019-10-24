@@ -40,6 +40,7 @@ layout-macro-def (weekly) {
 									goal: Results
 									value: $expr(results.schoolname)
 									value: $expr(result.date)
+									value: $expr(results.meal)
 								}
 							}
 						}

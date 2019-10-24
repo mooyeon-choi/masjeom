@@ -16,4 +16,16 @@ structure (Results) {
     type (Result)
     min (Optional) max (Many)
   }
+  property (schools) {
+    type (Schools)
+    min (Optional) max (One)
+  }
+    property (uri) {
+    type (Uri)
+    min (Optional) max (One)
+  }
+  property (meal) {
+    type (Meal)
+    min (Optional) max (One)
+  }
 }

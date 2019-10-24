@@ -8,6 +8,16 @@ endpoints {
 		action-endpoint (FindMenu) {
 			accepted-inputs (dateTimeExpression, schools, meal, date)
 			local-endpoint (findMenu.js)
+			// authorization {
+			// 	user
+			// }
+		}
+		action-endpoint (Login) {
+			accepted-inputs ()
+			local-endpoint (oauth.js)
+			authorization {
+				user
+			}
 		}
 	}
 }

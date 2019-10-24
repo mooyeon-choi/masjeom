@@ -1,0 +1,5 @@
+train (t-z3m99a70ccia5q8w9yamqghxn) {
+  utterance ("[g:Results] (이번주)[v:time.DateTimeExpression] 급식 알려줘")
+  plan (Y2BmECvIKS02NDI0NtErSS0u0QtKLS7NKSlmEEcTd8vMS/FNzStlkC7LLNMrycxN1XNJLEkNATJcKwqKUouLM/PzGJgYGIGYAUgyMoAAEwQDAA==)
+  last-modified (1571874270524)
+}

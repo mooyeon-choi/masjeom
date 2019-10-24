@@ -23,5 +23,13 @@ action (FindMenu) {
 		}
 	}
 	type(Search)
-	output (Results) 
+	output (Results) {
+		on-empty {
+			replace (schools) {
+				intent {
+					goal {Login}
+				}
+			}
+		}
+	}
 }

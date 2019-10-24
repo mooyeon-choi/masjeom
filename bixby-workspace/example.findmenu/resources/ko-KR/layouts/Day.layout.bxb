@@ -13,130 +13,144 @@ layout-macro-def (day) {
 				template ("#{value(results.schoolname)}")
 			}
 			content{
-				compound-card{
-					content{
-						single-line{
-							text {
-								value (" #{value(results.date)}일 메뉴")
-								style (Title_M)
-							}
-						}
-						divider
-						single-line {
-							if (results.menus.menu1.myAllergy) {
+				if (size(results.menus) > 0) {
+					compound-card{
+						content{
+							single-line{
 								text {
-									value ("#{value(results.menus.menu1.menuName)}")
-									color (Red)}
+									value (" #{value(results.date)}일 메뉴")
+									style (Title_M)
+								}
 							}
-							else {
-								text {
-									value ("#{value(results.menus.menu1.menuName)}")
+							divider
+							single-line {
+								if (results.menus.menu1.myAllergy) {
+									text {
+										value ("#{value(results.menus.menu1.menuName)}")
+										color (Red)}
+								}
+								else {
+									text {
+										value ("#{value(results.menus.menu1.menuName)}")
+									}
+								}
+							}
+							single-line {
+								if (results.menus.menu2.myAllergy) {
+									text {
+										value ("#{value(results.menus.menu2.menuName)}")
+										color (Red)}
+								}
+								else {
+									text {
+										value ("#{value(results.menus.menu2.menuName)}")
+									}
+								}
+							}
+							single-line {
+								if (results.menus.menu3.myAllergy) {
+									text {
+										value ("#{value(results.menus.menu3.menuName)}")
+										color (Red)}
+								}
+								else {
+									text {
+										value ("#{value(results.menus.menu3.menuName)}")
+									}
+								}
+							}
+							single-line {
+								if (results.menus.menu4.myAllergy) {
+									text {
+										value ("#{value(results.menus.menu4.menuName)}")
+										color (Red)}
+								}
+								else {
+									text {
+										value ("#{value(results.menus.menu4.menuName)}")
+									}
+								}
+							}
+							single-line {
+								if (results.menus.menu5.myAllergy) {
+									text {
+										value ("#{value(results.menus.menu5.menuName)}")
+										color (Red)}
+								}
+								else {
+									text {
+										value ("#{value(results.menus.menu5.menuName)}")
+									}
+								}
+							}
+							single-line {
+								if (results.menus.menu6.myAllergy) {
+									text {
+										value ("#{value(results.menus.menu6.menuName)}")
+										color (Red)}
+								}
+								else {
+									text {
+										value ("#{value(results.menus.menu6.menuName)}")
+									}
+								}
+							}
+							single-line {
+								if (results.menus.menu7.myAllergy) {
+									text {
+										value ("#{value(results.menus.menu7.menuName)}")
+										color (Red)}
+								}
+								else {
+									text {
+										value ("#{value(results.menus.menu7.menuName)}")
+									}
+								}
+							}
+							single-line {
+								if (results.menus.menu8.myAllergy) {
+									text {
+										value ("#{value(results.menus.menu8.menuName)}")
+										color (Red)}
+								}
+								else {
+									text {
+										value ("#{value(results.menus.menu8.menuName)}")
+									}
+								}
+							}
+							single-line {
+								if (results.menus.menu9.myAllergy) {
+									text {
+										value ("#{value(results.menus.menu9.menuName)}")
+										color (Red)}
+								}
+								else {
+									text {
+										value ("#{value(results.menus.menu9.menuName)}")
+									}
 								}
 							}
 						}
-						single-line {
-							if (results.menus.menu2.myAllergy) {
-								text {
-									value ("#{value(results.menus.menu2.menuName)}")
-									color (Red)}
-							}
-							else {
-								text {
-									value ("#{value(results.menus.menu2.menuName)}")
-								}
-							}
-						}
-						single-line {
-							if (results.menus.menu3.myAllergy) {
-								text {
-									value ("#{value(results.menus.menu3.menuName)}")
-									color (Red)}
-							}
-							else {
-								text {
-									value ("#{value(results.menus.menu3.menuName)}")
-								}
-							}
-						}
-						single-line {
-							if (results.menus.menu4.myAllergy) {
-								text {
-									value ("#{value(results.menus.menu4.menuName)}")
-									color (Red)}
-							}
-							else {
-								text {
-									value ("#{value(results.menus.menu4.menuName)}")
-								}
-							}
-						}
-						single-line {
-							if (results.menus.menu5.myAllergy) {
-								text {
-									value ("#{value(results.menus.menu5.menuName)}")
-									color (Red)}
-							}
-							else {
-								text {
-									value ("#{value(results.menus.menu5.menuName)}")
-								}
-							}
-						}
-						single-line {
-							if (results.menus.menu6.myAllergy) {
-								text {
-									value ("#{value(results.menus.menu6.menuName)}")
-									color (Red)}
-							}
-							else {
-								text {
-									value ("#{value(results.menus.menu6.menuName)}")
-								}
-							}
-						}
-						single-line {
-							if (results.menus.menu7.myAllergy) {
-								text {
-									value ("#{value(results.menus.menu7.menuName)}")
-									color (Red)}
-							}
-							else {
-								text {
-									value ("#{value(results.menus.menu7.menuName)}")
-								}
-							}
-						}
-						single-line {
-							if (results.menus.menu8.myAllergy) {
-								text {
-									value ("#{value(results.menus.menu8.menuName)}")
-									color (Red)}
-							}
-							else {
-								text {
-									value ("#{value(results.menus.menu8.menuName)}")
-								}
-							}
-						}
-						single-line {
-							if (results.menus.menu9.myAllergy) {
-								text {
-									value ("#{value(results.menus.menu9.menuName)}")
-									color (Red)}
-							}
-							else {
-								text {
-									value ("#{value(results.menus.menu9.menuName)}")
-								}
+						on-click{
+							intent{
+								goal: AllergyResult
+								value: $expr(results.date)
+								value: $expr(results.schoolname)
+								value: $expr(results.menus)
 							}
 						}
 					}
-					on-click{
-						intent{
-							goal: AllergyResult
-							value: $expr(results.date)
-							value: $expr(results.schoolname)
-							value: $expr(results.menus)
+				}
+				else {
+					compound-card{
+						content{
+							single-line{
+								text {
+									value ("급식 정보가 없습니다.")
+									style (Title_M)
+								}
+							}
 						}
 					}
 				}

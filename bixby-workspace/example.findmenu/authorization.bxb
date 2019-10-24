@@ -1,0 +1,19 @@
+authorization {
+    // global {
+    //   oauth2-client-credentials (__PROVIDER_ID__) {
+    //     client-id (__APP_PUBLIC_ID__)
+    //     client-secret-key (__KEY_TO_ACCESS_CLIENT_SECRET__)
+    //     scope (__LIST_OF_SCOPES__)
+    //     token-endpoint (__ACCESS_TOKEN_ENDPOINT__)
+    //   }
+    // }
+    user {
+      oauth2-authorization-code (findmenu) {
+        authorize-endpoint (https://accounts.google.com/o/oauth2/v2/auth)
+        client-id (1067695915225-6j8ps7q3sb5a3868d74nsd20vo23mg4g.apps.googleusercontent.com)
+        client-secret-key (secret)
+        scope (email profile openid) 
+        token-endpoint (https://www.googleapis.com/oauth2/v4/token)
+      }
+    }
+  }

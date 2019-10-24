@@ -1,0 +1,5 @@
+train (t-tzonep9btctu52kqkr09sorz7) {
+  utterance ("[g:Results] (남수원)[v:SchoolName] (초등학교)[v:SchoolKeyword:초등학교] (다음주 월요일)[v:time.DateTimeExpression] 밥 뭐야")
+  plan (Y2BnEC/ISaxML8ovzUvRK0ktLtELSi0uzSkpZpBAl3DLzEvxTc0rxdQSnJyRn59TzCCFTQtEkkEWuybv1Mry/KIUTK0Qab/E3FQG6bLMMr2SzNxUPZfEktQQIMO1oqAotbg4Mz+PgY2BkYGJgZmBhYEVyGaA8piBNCOYBwMsYAxWAwA=)
+  last-modified (1571659838340)
+}

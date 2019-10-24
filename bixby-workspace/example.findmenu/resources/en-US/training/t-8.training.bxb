@@ -1,0 +1,5 @@
+train (t-8i44dfvcyi5eqqnft60twt7cf) {
+  utterance ("[g:Results] (앙성)[v:SchoolName] (중)[v:SchoolKeyword:중학교] 메뉴 알려줘")
+  plan (Y2BjkEitSMwtyEnVS8vMS8lNzSvVC0otLs0pKWaQxJBxAzJ8gQwsmoKTM/Lzc4oZpLFqgsgyyOHQ5p1aWZ5flIJFM0TeLzE3lYGVgZGBiYGZgQXIYoCymYE0AxiDADMQg2UB)
+  last-modified (1571182726347)
+}

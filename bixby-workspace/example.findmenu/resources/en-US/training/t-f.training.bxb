@@ -1,0 +1,5 @@
+train (t-fkc0z5w8e1mv10t74567ufdij) {
+  utterance ("[g:Results] (현일)[v:SchoolName] (고)[v:SchoolKeyword:고등학교] (이번주)[v:time.DateTimeExpression] (아침)[v:Meal] 급식 뭐야?")
+  plan (bYxdCsIwEISntVUPICiKV8gp1BepD+oFglk0kCYlP9Xe3pDSl7YLCzP77QzW2DaKd29rghbMk/PsTi4o77Abg4vUoiIdsBmTiriaFj1eH2OUw36uqIc4zoeu1H2NFdNoj2+8Jhxa2TIva2In7ukZxfnXWHJOGo0VMuRYoECJZXSIPku+SArpMkwZNx8+/w==)
+  last-modified (1571656781226)
+}
