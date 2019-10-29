@@ -1,0 +1,15 @@
+train (t-z6ovz7y7h0vcvil9azyfa2vng) {
+  utterance ("[g:Results] (내일)[v:time.DateTimeExpression] (저녁)[v:Meal] 뭐지?")
+  plan (Y2BhEMorTS8tytRLyk/SC0otLs0pKWYQRhJzy8xL8U3NK2XgRxL0TU3MYZAuyyzTK8nMTdVzSSxJDQEyXCsKilKLizPz8xiYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1572256153308)
+}
+train (t-z88k79bb7cmxbgacppdv8zzwg) {
+  utterance ("[g:Results] (다음주)[v:time.DateTimeExpression] (메뉴)[v:Meal] 보여줘")
+  plan (Y2BhEMorTS8tytRLyk/SC0otLs0pKWYQRhJzy8xL8U3NK2XgRxL0TU3MYZAuyyzTK8nMTdVzSSxJDQEyXCsKilKLizPz8xiYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1572256153326)
+}
+train (t-zqdvfyk0xace7hwry7ybg28me) {
+  utterance ("[g:Results] 우리 학교 (월요일)[v:time.DateTimeExpression] (밥)[v:Meal] 알려줘")
+  plan (Y2BhEMorTS8tytRLyk/SC0otLs0pKWYQRhJzy8xL8U3NK2XgRxL0TU3MYZAuyyzTK8nMTdVzSSxJDQEyXCsKilKLizPz8xiYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1572256153339)
+}

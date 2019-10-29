@@ -1,0 +1,11 @@
+action (Register) {
+  description (사용자의 학교와 알레르기 정보 등록)
+  collect {
+    input (registerchk) {
+      type (RegisterChk)
+      min (Optional) max (One)
+    }
+  }
+  type(Search)
+  output (RegisterResult)
+}

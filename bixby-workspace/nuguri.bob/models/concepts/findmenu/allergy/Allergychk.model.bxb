@@ -1,0 +1,3 @@
+boolean (Allergychk) {
+  description (사용자가 해당 알레르기를 가지고 있는 지에 대한 여부)
+}

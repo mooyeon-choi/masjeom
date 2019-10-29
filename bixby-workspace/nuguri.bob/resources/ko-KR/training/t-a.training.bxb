@@ -1,0 +1,10 @@
+train (t-a80n1klp9otsg6xme0ktxwcfr) {
+  utterance ("[g:Results] (점심)[v:Meal] 알려줘")
+  plan (Y2BmEMorTS8tytRLyk/SC0otLs0pKWYQRhJzy8xL8U3NK2XgRxL0TU3MYWBiYARiBiDJyAACTBAMAA==)
+  last-modified (1572256153452)
+}
+train (t-aey290w6cz2yblndwlfh9kfrr) {
+  utterance ("[g:Results] (계산)[v:SchoolName] (고등학교)[v:SchoolKeyword:고등학교] (이번주)[v:time.DateTimeExpression] (밥)[v:Meal] 뭐나와?")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572256151813)
+}

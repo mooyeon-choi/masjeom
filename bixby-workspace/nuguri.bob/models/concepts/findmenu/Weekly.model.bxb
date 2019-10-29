@@ -1,0 +1,19 @@
+structure (Weekly) {
+  description (주간 식단 결과)
+  property (schools) {
+    type (Schools)
+    min (Optional) max (One)
+  }
+  property (result) {
+    type (Result)
+    min (Optional) max (Many)
+  }
+  property (meal) {
+    type (Meal)
+    min (Optional) max (One)
+  }
+    property (myallergy) {
+    type (Allergy)
+    min (Optional) max (Many)
+  }
+}

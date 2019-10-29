@@ -1,0 +1,54 @@
+layout-macro-def (weekly) {
+	params {
+		param (weekly) {
+			type (Weekly)
+			min (Optional) max (Many)
+		}
+	}
+	content{
+		section{
+			title {
+				template ("#{value(weekly.schools.name)} #{value(weekly.meal)}")
+			}
+			content{
+				for-each (weekly.result){
+					as (result) {
+						compound-card {
+							content {
+								title-area {
+									slot1 {
+										text {
+											value ("#{value(result.date)}일 메뉴")
+											style (Title_M)
+										}
+									}
+								}
+								divider
+								for-each (result.menuName){
+									as (menu) {
+										paragraph {
+											value {
+												template ("#{value(menu)}")
+											}
+											style (Detail_L)
+										}
+									}
+								}
+							}
+							on-click{
+								intent{
+									goal: FindMenu
+									value: $expr(weekly.schools)
+									value: $expr(result.date)
+									value: $expr(result.month)
+									value: $expr(weekly.meal)
+									value: $expr(weekly.myallergy)
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

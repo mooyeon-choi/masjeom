@@ -1,0 +1,16 @@
+enum (SchoolKeyword) {
+  description (학교 줄임말)
+  symbol (여자고등학교)
+  symbol (여자중학교)
+  symbol (과학고등학교)
+  symbol (외국어고등학교)
+  symbol (예술고등학교)
+  symbol (상업고등학교)
+  symbol (공업고등학교)
+  symbol (농업고등학교)
+  symbol (초등학교)
+  symbol (중학교)
+  symbol (고등학교)
+  symbol (부설고등학교)
+  symbol (여자상업고등학교)
+}

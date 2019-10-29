@@ -1,0 +1,3 @@
+text (SchoolCode) {
+  description (학교 코드)
+}

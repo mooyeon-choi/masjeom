@@ -1,0 +1,3 @@
+text (RegisterChk) {
+  description (등록 여부 확인)
+}

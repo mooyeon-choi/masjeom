@@ -1,0 +1,20 @@
+train (t-d4psnsrklaieazkvxshgs33be) {
+  utterance ("[g:Results] (내일)[v:viv.time.DateTimeExpression] (저녁 메뉴)[v:Meal] 뭐야")
+  plan (Y2BhEMorTS8tytRLyk/SC0otLs0pKWYQRhJzy8xL8U3NK2XgRxL0TU3MYZAuyyzTK8nMTdVzSSxJDQEyXCsKilKLizPz8xiYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1572256152042)
+}
+train (t-dct1fdepyl37gcsq5v8iftizh) {
+  utterance ("[g:Results] (대덕)[v:SchoolName] (고등학교)[v:SchoolKeyword:고등학교] (다음주)[v:viv.time.DateTimeExpression] (밥)[v:Meal] 뭐지")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572256152060)
+}
+train (t-dvmthz00ewqvkiv8qn3ofpl20) {
+  utterance ("[g:Results] (3일)[v:time.DateTimeExpression]에 (점심 밥)[v:Meal] 뭐지")
+  plan (Y2BhEMorTS8tytRLyk/SC0otLs0pKWYQRhJzy8xL8U3NK2XgRxL0TU3MYZAuyyzTK8nMTdVzSSxJDQEyXCsKilKLizPz8xiYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1572256152076)
+}
+train (t-dyfca63jxfbc6eco4bza5hf19) {
+  utterance ("[g:Results] (오늘)[v:time.DateTimeExpression] (밥)[v:Meal] 뭐야?")
+  plan (Y2BhEMorTS8tytRLyk/SC0otLs0pKWYQRhJzy8xL8U3NK2XgRxL0TU3MYZAuyyzTK8nMTdVzSSxJDQEyXCsKilKLizPz8xiYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1572256152090)
+}

@@ -1,0 +1,15 @@
+train (t-x4om3be4k1vo0snv1nuttkpmp) {
+  utterance ("[g:Results] (서귀포)[v:SchoolName] (고등학교)[v:SchoolKeyword:고등학교] (저녁)[v:Meal] 뭐지")
+  plan (Y2BnEMorTS8tytRLyk/SC0otLs0pKWYQRhJzy8xL8U3NK2XgRxL0TU3MQdEZnJyRn59TzCCKphMiziCBodQ7tbI8vygFRQNExi8xN5WBjYGRgYmBmYGFgRXIZgDyGME8FiDNAOZDAAsQM0HUAAA=)
+  last-modified (1572257280165)
+}
+train (t-x76z64b04k4q3hb3go3nswuis) {
+  utterance ("[g:RegisterResult] (변경)[v:RegisterChk] 해줘")
+  plan (Y2BmkMwrTS8tytRLyk/SC0pNzywuSS0KSi0uzSlhEMYixSCGRdA5I5uBiYERiBmAJCMDCDBBMAA=)
+  last-modified (1572256153123)
+}
+train (t-xcy0cfexit4hoffbr84x1o1je) {
+  utterance ("[g:Results] (이번주)[v:time.DateTimeExpression] (급식)[v:Meal] 알려줘")
+  plan (Y2BhEMorTS8tytRLyk/SC0otLs0pKWYQRhJzy8xL8U3NK2XgRxL0TU3MYZAuyyzTK8nMTdVzSSxJDQEyXCsKilKLizPz8xiYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1572256153137)
+}

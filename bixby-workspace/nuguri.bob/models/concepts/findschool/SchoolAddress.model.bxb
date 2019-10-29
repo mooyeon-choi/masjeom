@@ -1,0 +1,3 @@
+text (SchoolAddress) {
+  description (학교 주소)
+}

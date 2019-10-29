@@ -1,0 +1,76 @@
+layout-macro-def (detail-allergy) {
+	params {
+		param (results) {
+			type (AllergyResult)
+			min (Optional) max (Many)
+		}
+	}
+	content {
+		section{
+			title {
+				template ("#{value(results.schoolname)} #{value(results.date)}일 #{value(results.meal)}")
+			}
+			content{for-each (results.menus){
+				as (menu) {
+					compound-card{
+						content{
+							if (size(menu.menuName) > 0) {
+								if (menu.myAllergy){
+									single-line{
+										text {
+											value ("#{value(menu.menuName)}")
+											style (Title_M)
+											color(Red)
+										}
+									}
+								}
+								else{
+									single-line{
+										text {
+											value ("#{value(menu.menuName)}")
+											style (Title_M)
+											
+										}
+									}
+								}
+								divider
+								if (size(menu.allergy) < 1) {
+									single-line {
+										text {
+											value ("알러지 정보 없음")
+										}
+									}
+								}
+								else {
+									for-each (menu.allergy){
+										as (allergy) {
+											if (allergy.allergychk) {
+												single-line {
+													text {
+														value ("#{value(allergy.allergyname)}")
+														style (Title_S)
+														color (Red)
+													}
+												}
+											}
+											else{
+												single-line {
+													text {
+														value ("#{value(allergy.allergyname)}")
+														style (Title_S)
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			}
+		}
+	}
+}
+

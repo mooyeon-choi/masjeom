@@ -1,0 +1,43 @@
+result-view {
+	match : Results(this)
+	
+	message {
+		if (this.info) {
+			template ("사용자의 학교 정보가 없습니다")
+		}
+		else-if (exists(this.weekly)) {
+			template ("#{value(this.weekly.schools.name)} 주간 식단입니다")
+		}
+		else-if (exists(this.daily)) {
+			template ("#{value(this.daily.schools.name)} #{value(this.daily.meal)} 식단입니다")
+		}
+		else {
+			template ("식단을 찾을 수 없습니다")
+		}
+	}
+	
+	conversation-drivers {
+		if (this.info) {
+			conversation-driver {
+				template ("내 정보 등록 하기")
+			}
+		}
+	}
+	render {
+		if (exists(this.weekly)) {
+			layout-macro (weekly) {
+				param (weekly) {
+					expression (this.weekly) 
+				}
+			}
+		}
+		else-if (exists(this.daily)) {
+			layout-macro (daily) {
+				param (daily) {
+					expression (this.daily) 
+				}
+			}
+		}
+	}
+}
+

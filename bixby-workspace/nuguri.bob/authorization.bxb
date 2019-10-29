@@ -1,0 +1,12 @@
+authorization {
+    user {
+      oauth2-authorization-code (findmenu) {
+        login-button-label (로그인이 필요합니다)
+        authorize-endpoint (https://accounts.google.com/o/oauth2/v2/auth)
+        client-id (1067695915225-6j8ps7q3sb5a3868d74nsd20vo23mg4g.apps.googleusercontent.com)
+        client-secret-key (secret)
+        scope (email profile openid) 
+        token-endpoint (https://www.googleapis.com/oauth2/v4/token)
+      }
+    }
+  }

@@ -1,0 +1,5 @@
+train (t-hq2635u4v27st5v72ittkr6ee) {
+  utterance ("[g:Results] (서울)[v:SchoolName] (과고)[v:SchoolKeyword:과학고등학교] (어제)[v:time.DateTimeExpression] (아침)[v:Meal] 뭐였어")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572256152262)
+}

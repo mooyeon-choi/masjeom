@@ -1,0 +1,15 @@
+structure (Menus) {
+  description (해당 날짜 식단)
+  property (menuName) {
+    type (MenuName)
+    min (Optional) max (One)
+  }
+    property (allergy) {
+    type (AllergyStr)
+    min (Optional) max (Many)
+  }
+    property (myAllergy) {
+    type (MyAllergy)
+    min (Optional) max (One)
+  }
+}

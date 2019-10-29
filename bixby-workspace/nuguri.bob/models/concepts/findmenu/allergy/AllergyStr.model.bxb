@@ -1,0 +1,11 @@
+structure (AllergyStr) {
+  description (알레르기 상세보기에서 등록된 알레르기 표기)
+  property (allergyname) {
+    type (Allergyname)
+    min (Optional) max (One)
+  }
+  property (allergychk) {
+    type (Allergychk)
+    min (Optional) max (Many)
+  }
+}

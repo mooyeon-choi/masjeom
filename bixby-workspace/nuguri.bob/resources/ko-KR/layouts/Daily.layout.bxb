@@ -1,0 +1,67 @@
+layout-macro-def (daily) {
+	params {
+		param (daily) {
+			type (Daily)
+			min (Optional) max (Many)
+		}
+	}
+	content{
+		section{
+			title {
+				template ("#{value(daily.schools.name)} #{value(daily.meal)}")
+			}
+			content{
+				if (size(daily.menus) > 0) {
+					compound-card{
+						content{
+							single-line{
+								text {
+									value ("#{value(daily.date)}일 메뉴")
+									style (Title_M)
+								}
+							}
+							divider
+							for-each (daily.menus){
+								as (menu) {
+									single-line {
+										if (menu.myAllergy) {
+											text {
+												value ("#{value(menu.menuName)}")
+												color (Red)}
+										}
+										else {
+											text {
+												value ("#{value(menu.menuName)}")
+											}
+										}
+									}
+								}
+							}
+						}
+						on-click{
+							intent{
+								goal: AllergyResult
+								value: $expr(daily.date)
+								value: $expr(daily.schools.name)
+								value: $expr(daily.menus)
+								value: $expr(daily.meal)
+							}
+						}
+					}
+				}
+				else {
+					compound-card{
+						content{
+							single-line{
+								text {
+									value ("급식 정보가 없습니다")
+									style (Title_M)
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

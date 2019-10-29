@@ -1,0 +1,3 @@
+boolean (Info) {
+  description (사용자의 정보가 입력 되어 있는 지 여부)
+}

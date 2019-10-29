@@ -1,0 +1,15 @@
+train (t-k3gzxg0tsq3qv3ualrjezem8y) {
+  utterance ("[g:Results] (급식)[v:Meal] 알려줘")
+  plan (Y2BmEMorTS8tytRLyk/SC0otLs0pKWYQRhJzy8xL8U3NK2XgRxL0TU3MYWBiYARiBiDJyAACTBAMAA==)
+  last-modified (1572256152327)
+}
+train (t-k9ii7vc9ufvkdy7ojvajogy7f) {
+  utterance ("[g:Results] (평택기계)[v:SchoolName] (공업고등학교)[v:SchoolKeyword:공업고등학교] (아침)[v:Meal] 뭐나와")
+  plan (Y2BnEMorTS8tytRLyk/SC0otLs0pKWYQRhJzy8xL8U3NK2XgRxL0TU3MQdEZnJyRn59TzCCKphMiziCBodQ7tbI8vygFRQNExi8xN5WBjYGRgYmBmYGFgRXIZgDyGME8FiDNAOZDAAsQM0HUAAA=)
+  last-modified (1572256083209)
+}
+train (t-kkku1ednf9eui8u8f5x4wit1p) {
+  utterance ("[g:Results] (충남)[v:SchoolName] (여자중학교)[v:SchoolKeyword:여자중학교] (11일)[v:viv.time.DateTimeExpression] (메뉴)[v:Meal] 뭐야")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572257279480)
+}

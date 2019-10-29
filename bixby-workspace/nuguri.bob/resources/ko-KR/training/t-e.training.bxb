@@ -1,0 +1,5 @@
+train (t-e62er23xlii3g07paqp5xsu1a) {
+  utterance ("[g:Results] (태안)[v:SchoolName] (여고)[v:SchoolKeyword:여자고등학교] (13일)[v:time.DateTimeExpression] (밥)[v:Meal] 뭐나와")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572256153372)
+}

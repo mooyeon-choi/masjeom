@@ -1,0 +1,30 @@
+input-view {
+	match: Schools(this) {
+		to-input: FindMenu(action)
+	}
+	
+	message {
+		template ("학교를 선택해주세요")
+	}
+	
+	render {
+		if (size(this) > 0) {
+			selection-of (this) {
+				where-each (this) {
+					cell-card {
+						slot2 {
+							content {
+								primary {
+									template ("#{value(this.name)} ")
+								}
+								secondary {
+									template ("#{value(this.address)}")
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

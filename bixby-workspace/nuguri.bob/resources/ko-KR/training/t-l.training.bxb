@@ -1,0 +1,5 @@
+train (t-lwy2bwxawoflrltuyg5fbtq1u) {
+  utterance ("[g:RegisterResult] 내 정보 (수정)[v:RegisterChk] 해줘")
+  plan (Y2BmkMwrTS8tytRLyk/SC0pNzywuSS0KSi0uzSlhEMYixSCGRdA5I5uBiYERiBmAJCMDCDBBMAA=)
+  last-modified (1572256152360)
+}

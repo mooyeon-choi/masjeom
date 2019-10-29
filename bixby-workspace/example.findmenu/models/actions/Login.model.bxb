@@ -1,5 +1,0 @@
-action (Login) {
-  description (__DESCRIPTION__)
-  type (Search)
-  output (LoginResult)
-}

@@ -1,0 +1,17 @@
+capsule-info {
+  display-name (급식이)
+  developer-name (너구리)
+  icon-asset (/img/icon.png)
+  description ("초, 중, 고등학생들을 위한 급식 알리미")
+  website-url ()
+  search-keywords{
+    keyword (급식정보)
+    keyword (초중고급식)
+    keyword (급식알레르기정보)
+  }
+  dispatch-name (급식이)
+  dispatch-aliases {
+    alias (급시기)
+  }
+  privacy-policy-url (https://github.com/mooyeon-choi/bixby/)
+}

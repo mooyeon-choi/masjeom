@@ -1,0 +1,3 @@
+text (Meal) {
+  description (아침, 점심, 저녁, 밥, 메뉴, 급식 등)
+}

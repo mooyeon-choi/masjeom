@@ -1,0 +1,27 @@
+capsule {
+	id (nuguri.bob)
+	version (0.1.2)
+	format (3)
+	targets {
+		target (bixby-mobile-ko-KR)
+	}
+	capsule-imports {
+		import (viv.time) {
+			as (time) version (3.0.3)
+		}
+	}
+	store-sections{
+		section (FoodAndDrink)
+		
+	}
+	runtime-flags {
+		use-input-views-for-selection-list-detail
+		modern-default-view-behavior
+		no-filtering-with-validation
+		concepts-inherit-super-type-features
+		modern-prompt-rejection
+		support-halt-effect-in-computed-inputs
+		no-fallback-to-result-collections
+		allow-dialogs-on-detail-pages
+	}
+}

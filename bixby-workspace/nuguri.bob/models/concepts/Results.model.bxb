@@ -1,0 +1,15 @@
+structure (Results) {
+  description (결과표시)
+  property (weekly) {
+    type (Weekly)
+    min (Optional) max (Many)
+  }
+  property (info) {
+    type (Info)
+    min (Optional) max (Many)
+  }
+  property (daily) {
+    type (Daily)
+    min (Optional) max (One)
+  }
+}

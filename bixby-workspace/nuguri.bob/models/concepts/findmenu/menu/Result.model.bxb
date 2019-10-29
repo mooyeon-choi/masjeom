@@ -1,0 +1,15 @@
+structure (Result) {
+  description (해당 날짜에 대한 메뉴 이름)
+  property (month) {
+    type (Month)
+    min (Optional) max (One)
+  }
+  property (date) {
+    type (Date)
+    min (Optional) max (One)
+  }
+  property (menuName) {
+    type (MenuName)
+    min (Optional) max (Many)
+  }
+}

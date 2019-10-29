@@ -1,0 +1,27 @@
+structure (Schools) {
+  description (등록한 학교 정보)
+  property (code) {
+    type (SchoolCode)
+    min (Optional) max (Many)
+  }
+  property (name) {
+    type (SchoolName)
+    min (Optional) max (Many)
+  }
+  property (type) {
+    type (SchoolType)
+    min (Optional) max (Many)
+  }
+  property (address) {
+    type (SchoolAddress)
+    min (Optional) max (Many)
+  }
+  property (info) {
+    type (Info)
+    min (Optional) max (Many)
+  }
+  property (myallergy) {
+    type (Allergy)
+    min (Optional) max (Many)
+  }
+}

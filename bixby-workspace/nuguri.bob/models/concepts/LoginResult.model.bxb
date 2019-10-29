@@ -1,0 +1,11 @@
+structure (LoginResult) {
+  description(로그인 결과)
+  property (info) {
+    type (Info)
+    min (Optional) max (Many)
+  }
+    property (schools) {
+    type (Schools)
+    min (Optional) max (Many)
+  }
+}

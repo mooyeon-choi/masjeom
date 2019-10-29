@@ -1,0 +1,5 @@
+train (t-ibhns32t766u31kycvywdqdtm) {
+  utterance ("[g:Results] (저녁)[v:Meal] 뭐 나와")
+  plan (Y2BmEMorTS8tytRLyk/SC0otLs0pKWYQRhJzy8xL8U3NK2XgRxL0TU3MYWBiYARiBiDJyAACTBAMAA==)
+  last-modified (1572256153386)
+}

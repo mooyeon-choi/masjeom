@@ -1,0 +1,9 @@
+hints {
+  uncategorized{
+    utterance (대천 고 다음 주 메뉴 알려줘)
+    utterance (오늘 밥 뭐야?)
+    utterance (태안 여고 13일 저녁 뭐나와?)
+    utterance (내 정보 등록 하기)
+    utterance (대전 외고 금요일 급식 알려줘)
+  }
+}

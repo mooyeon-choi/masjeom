@@ -1,0 +1,43 @@
+action (FindMenu) {
+	description (메뉴 찾기)
+	collect {
+		input (schools) {
+			type (Schools)
+			min(Optional) max(One)
+		}
+		input (date) {
+			type (Date)
+			min(Optional) max(One)
+		}
+				input (month) {
+			type (Month)
+			min(Optional) max(One)
+		}
+		input (dateTimeExpression) {
+			type (time.DateTimeExpression)
+			min(Optional) max(One)
+			default-select {
+				with-learning {
+				}
+			}
+		}
+		input (meal) {
+			type (Meal)
+			min(Optional) max(One)
+		}
+		input (myallergy) {
+			type (Allergy)
+			min (Optional) max (Many)
+		}
+	}
+	type(Search)
+	output (Results) {
+		on-empty {
+			replace (schools) {
+				intent {
+					goal {Login}
+				}
+			}
+		}
+	}
+}

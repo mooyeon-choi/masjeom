@@ -1,0 +1,11 @@
+result-view {
+  match: RegisterResult (this)
+
+	message {
+		template ("등록 페이지로 이동합니다.")
+	}
+
+  app-launch {
+    payload-uri ("https://bixby-menu.herokuapp.com/")
+}
+}

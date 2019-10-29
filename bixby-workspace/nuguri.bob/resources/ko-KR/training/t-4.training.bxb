@@ -1,0 +1,10 @@
+train (t-4o44wct2hel1kamxnuyp2zp2d) {
+  utterance ("[g:Results] (대천)[v:SchoolName](고)[v:SchoolKeyword:고등학교] (다음주)[v:time.DateTimeExpression] 메뉴 알려줘")
+  plan (Y2BnEMorTS8tytRLyk/SC0otLs0pKWYQRhJzy8xL8U3NK0VRGJyckZ+fU8wgiqYQIs4ggaHUO7WyPL8oBUUDRMYvMTeVQboss0yvJDM3Vc8lsSQ1BMhwrSgoSi0uzszPY2BjYGRgYmBmYGFgBbIZoDxmIM0I5sEACxiD1QAA)
+  last-modified (1572256294361)
+}
+train (t-4rbxpcqi8xlsmpvtl0komqnim) {
+  utterance ("[g:Results] (이번주)[v:time.DateTimeExpression] (급식)[v:Meal] 뭐야")
+  plan (Y2BhEMorTS8tytRLyk/SC0otLs0pKWYQRhJzy8xL8U3NK2XgRxL0TU3MYZAuyyzTK8nMTdVzSSxJDQEyXCsKilKLizPz8xiYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1572256985464)
+}

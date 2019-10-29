@@ -1,0 +1,37 @@
+action (DetailAllergy) {
+	description (해당 메뉴 알레르기 정보)
+	collect {
+		input (date) {
+			type (Date)
+			min (Optional) max (One)
+		}
+		input (schoolname) {
+			type (SchoolName)
+			min (Optional) max (One)
+		}
+		input (menus) {
+			type (Menus)
+			min (Optional) max (Many)
+		}
+		input (meal) {
+			type (Meal)
+			min (Optional) max (Many)
+		}
+    input (chk) {
+			type (LoginBool)
+			min (Optional) max (Many)
+		}
+	}
+	type(Search)
+	output (AllergyResult) {
+		evaluate {
+			AllergyResult {
+				date: $expr (date)
+				schoolname: $expr (schoolname)
+				menus: $expr (menus)
+				meal: $expr (meal)
+			}
+		}
+	}
+}
+

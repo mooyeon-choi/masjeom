@@ -1,0 +1,19 @@
+structure (AllergyResult) {
+  description(알레르기 결과)
+  property (date) {
+    type (Date)
+    min (Optional) max (Many)
+  }
+  property (schoolname) {
+    type (SchoolName)
+    min (Optional) max (Many)
+  }
+  property (menus) {
+    type (Menus)
+    min (Optional) max (Many)
+  }
+    property (meal) {
+    type (Meal)
+    min (Optional) max (Many)
+  }
+}

@@ -1,0 +1,3 @@
+boolean (MyAllergy) {
+  description (사용자의 알레르기)
+}

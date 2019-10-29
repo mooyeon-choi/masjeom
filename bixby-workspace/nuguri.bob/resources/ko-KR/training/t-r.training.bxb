@@ -1,0 +1,5 @@
+train (t-ricqkv1hu0tamv81fep8wv519) {
+  utterance ("[g:Results] (세정)[v:SchoolName] (상업고등학교)[v:SchoolKeyword:상업고등학교] (1일)[v:time.DateTimeExpression] (급식)[v:Meal] 뭐나와")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572256152765)
+}

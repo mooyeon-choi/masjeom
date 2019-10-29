@@ -1,0 +1,15 @@
+result-view {
+	match : AllergyResult(this)
+	
+	message {
+		template ("알레르기 정보입니다")
+	}
+	
+	render {
+			layout-macro (detail-allergy) {
+				param (results) {
+					expression (this) 
+				}
+			}
+	}
+}

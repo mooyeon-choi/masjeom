@@ -1,0 +1,23 @@
+structure (Daily) {
+  description (일간 식단 결과)
+   property (date) {
+    type (Date)
+    min (Optional) max (Many)
+  }
+  property (month) {
+    type (Month)
+    min (Optional) max (Many)
+  }
+  property (schools) {
+    type (Schools)
+    min (Optional) max (One)
+  }
+  property (menus) {
+    type (Menus)
+    min (Optional) max (Many)
+  }
+  property (meal) {
+    type (Meal)
+    min (Optional) max (One)
+  }
+}

@@ -1,0 +1,3 @@
+text (SchoolType) {
+  description (초, 중, 고 구분)
+}

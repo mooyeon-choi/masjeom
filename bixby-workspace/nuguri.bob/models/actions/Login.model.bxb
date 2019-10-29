@@ -1,0 +1,5 @@
+action (Login) {
+  description (구글 로그인)
+  type (Search)
+  output (LoginResult)
+}

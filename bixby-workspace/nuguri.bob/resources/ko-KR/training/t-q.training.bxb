@@ -1,0 +1,5 @@
+train (t-q4uex5udr64eo00digm91s9f9) {
+  utterance ("[g:Results] (분당중앙)[v:SchoolName] (고)[v:SchoolKeyword:고등학교] (다음주)[v:time.DateTimeExpression] (점심)[v:Meal] 알려줘")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572256152659)
+}

@@ -1,0 +1,20 @@
+train (t-t5ytg7j6i342odojuqfsmnnox) {
+  utterance ("[g:Results] (청주)[v:SchoolName] (농업고등학교)[v:SchoolKeyword:농업고등학교] (오늘)[v:time.DateTimeExpression] (점심)[v:Meal] 뭐야")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572256152790)
+}
+train (t-ta10el9hz6l0o9a26au5opppz) {
+  utterance ("[g:Results] (효성서)[v:SchoolName] (초등학교)[v:SchoolKeyword:초등학교] (다음주)[v:time.DateTimeExpression] (점심)[v:Meal] 뭐야")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572256152806)
+}
+train (t-te9960qek7qolyna0itp64v1c) {
+  utterance ("[g:Results] (계산)[v:SchoolName] (고등학교)[v:SchoolKeyword:고등학교] (모레)[v:viv.time.DateTimeExpression] (밥)[v:Meal] 뭐지")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572257279910)
+}
+train (t-tj05mch03rf8zywbfgi3y4oqi) {
+  utterance ("[g:Results] (복자)[v:SchoolName] (여자고등학교)[v:SchoolKeyword:여자고등학교] (밥)[v:Meal] 알려주세요")
+  plan (Y2BnEMorTS8tytRLyk/SC0otLs0pKWYQRhJzy8xL8U3NK2XgRxL0TU3MQdEZnJyRn59TzCCKphMiziCBodQ7tbI8vygFRQNExi8xN5WBjYGRgYmBmYGFgRXIZgDyGME8FiDNAOZDAAsQM0HUAAA=)
+  last-modified (1572256152865)
+}

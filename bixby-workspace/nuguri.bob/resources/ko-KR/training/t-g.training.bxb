@@ -1,0 +1,5 @@
+train (t-gwvazjm6pmguh9v7zdmat2npq) {
+  utterance ("[g:RegisterResult] 내 정보 (등록)[v:RegisterChk] 하기")
+  plan (Y2BmkMwrTS8tytRLyk/SC0pNzywuSS0KSi0uzSlhEMYixSCGRdA5I5uBiYERiBmAJCMDCDBBMAA=)
+  last-modified (1572256152237)
+}

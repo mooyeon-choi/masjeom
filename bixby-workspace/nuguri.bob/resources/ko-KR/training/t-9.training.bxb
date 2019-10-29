@@ -1,0 +1,5 @@
+train (t-9hxt24ux71vhhqpi6hj56rkdy) {
+  utterance ("[g:Results] (대천)[v:SchoolName](고)[v:SchoolKeyword:고등학교] (오늘)[v:time.DateTimeExpression] (밥)[v:Meal] 뭐야")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572256151780)
+}

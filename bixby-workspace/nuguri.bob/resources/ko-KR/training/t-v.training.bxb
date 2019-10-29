@@ -1,0 +1,15 @@
+train (t-vdgc0gu26r5250q3182ngjx04) {
+  utterance ("[g:Results] (경기)[v:SchoolName] (상고)[v:SchoolKeyword:상업고등학교] (화요일)[v:time.DateTimeExpression] (밥)[v:Meal] 뭐나와")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572256152921)
+}
+train (t-viul5528e8s3b0lsz3ogbss16) {
+  utterance ("[g:RegisterResult] (등록)[v:RegisterChk]해줘")
+  plan (Y2BmkMwrTS8tytRLyk/SC0pNzywuSS0KSi0uzSlhEMYixSCGRdA5I5uBiYERiBmAJCMDCDBBMAA=)
+  last-modified (1572256152935)
+}
+train (t-vzgiqco6rg78ddpgh4xnqlr3p) {
+  utterance ("[g:Results] (대전)[v:SchoolName] (외고)[v:SchoolKeyword:외국어고등학교] (금요일)[v:time.DateTimeExpression] (급식)[v:Meal] 알려줘")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572256153041)
+}

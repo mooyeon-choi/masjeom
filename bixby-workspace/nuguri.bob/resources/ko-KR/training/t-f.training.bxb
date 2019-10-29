@@ -1,0 +1,10 @@
+train (t-f2m8hkulaf16b7ry4srr05q42) {
+  utterance ("[g:Results] (광주전자)[v:SchoolName] (공고)[v:SchoolKeyword:공업고등학교] (내일)[v:time.DateTimeExpression] (저녁)[v:Meal] 뭐지")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572256152194)
+}
+train (t-fktyeuflg9g8sipa6pdhlv6oc) {
+  utterance ("[g:Results] (청주)[v:SchoolName] (농고)[v:SchoolKeyword:농업고등학교] (목요일)[v:viv.time.DateTimeExpression] (밥)[v:Meal] 알려줘")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572257279257)
+}

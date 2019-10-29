@@ -1,0 +1,10 @@
+train (t-5ovpquo4r6f5yygli1ofq7mup) {
+  utterance ("[g:Results] (의성)[v:SchoolName] (중)[v:SchoolKeyword:중학교] (목요일)[v:viv.time.DateTimeExpression] (밥)[v:Meal] 뭐야")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572256310450)
+}
+train (t-5t4or4t63ptpwr6fbn8as21g5) {
+  utterance ("[g:Results] (상산)[v:SchoolName] (고)[v:SchoolKeyword:고등학교] (이번 주)[v:viv.time.DateTimeExpression] (메뉴)[v:Meal] 뭐야")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572256399782)
+}

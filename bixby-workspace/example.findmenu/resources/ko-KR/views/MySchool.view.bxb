@@ -1,6 +1,0 @@
-// result-view {
-//   match: LoginResult (this)
-
-//   app-launch {
-//     payload-uri ("")
-// }
