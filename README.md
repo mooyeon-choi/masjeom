@@ -1,2 +1,2 @@
-[개인정보 처리방침](/개인정보 처리방침/개인정보 처리방침.pdf)
+[개인정보 처리방침](https://github.com/mooyeon-choi/masjeom/blob/master/PrivacyPolicy/privacy_policy.pdf)
 
