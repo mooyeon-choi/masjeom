@@ -9,9 +9,10 @@ capsule-info {
     keyword (초중고급식)
     keyword (급식알레르기정보)
   }
-  dispatch-name (급식이)
+  dispatch-name (맛점)
   dispatch-aliases {
-    alias (급시기)
+    alias (맛쩜)
+    alias (마쩜)
   }
-  privacy-policy-url (https://github.com/mooyeon-choi/bixby/)
+  privacy-policy-url (https://github.com/mooyeon-choi/masjeom/)
 }

@@ -3,6 +3,11 @@ train (t-24m3svnol85gu7b3729l104sk) {
   plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
   last-modified (1572256151407)
 }
+train (t-2bjulka03ctp1dxzaxww969a8) {
+  utterance ("[g:nuguri.bob.Results] (유성)[v:nuguri.bob.SchoolName] (여고)[v:nuguri.bob.SchoolKeyword:여자고등학교] (다음주)[v:viv.time.DateTimeExpression] (메뉴)[v:nuguri.bob.Meal] 뭐야")
+  plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
+  last-modified (1572515817119)
+}
 train (t-2dj3552mi0lbljcjlxqsqz3o1) {
   utterance ("[g:Results] (경신)[v:SchoolName] (여고)[v:SchoolKeyword:여자고등학교] (어제)[v:time.DateTimeExpression] (저녁)[v:Meal] 메뉴 알려줘")
   plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)

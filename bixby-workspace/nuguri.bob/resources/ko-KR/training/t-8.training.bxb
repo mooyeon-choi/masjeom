@@ -1,7 +1,7 @@
 train (t-894kxp1gdhpt3dhu9u1odpl6b) {
   utterance ("[g:Results] (강동)[v:SchoolName] (고등학교)[v:SchoolKeyword:고등학교] (10월8일)[v:viv.time.DateTimeExpression] (점심)[v:Meal] 뭐였지")
   plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
-  last-modified (1572256400361)
+  last-modified (1572515475214)
 }
 train (t-89gntqm27o3ekv2tep3nht0ba) {
   utterance ("[g:Results] (대천)[v:SchoolName] (여상)[v:SchoolKeyword:여자상업고등학교] (어제)[v:time.DateTimeExpression] (점심)[v:Meal] 뭐였지")

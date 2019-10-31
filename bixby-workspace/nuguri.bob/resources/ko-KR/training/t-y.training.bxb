@@ -1,7 +1,7 @@
 train (t-y01gbiihxxgkhprhal43exr8j) {
   utterance ("[g:Results] (문지)[v:SchoolName] (중학교)[v:SchoolKeyword:중학교] (17일)[v:time.DateTimeExpression] (급식)[v:Meal] 알려줘")
   plan (ZYtdCsIwEISntVXfBEUQvENOoX2R+qBeILWLBtKk5Kfq7Q0phVYXBma+ncESa+Uf3ghW6YpdyHrpLDYjVghVl6Q8ViNYEpeT5fX+1FpabH+WPcfur3qiz0ubejLoP2feEPad6JgTDbEDd3QL5vhuDVkrtMICCVLMkCHHPCSEnMScRYdIhsuD0qH5BQ==)
-  last-modified (1572256153161)
+  last-modified (1572515055605)
 }
 train (t-y266ojohm5nssudppvhlvzmzc) {
   utterance ("[g:Results] (인천)[v:SchoolName] (여자상업고등학교)[v:SchoolKeyword:여자상업고등학교] (어제)[v:viv.time.DateTimeExpression] (저녁)[v:Meal] 뭐였지")
